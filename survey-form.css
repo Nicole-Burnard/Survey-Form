@@ -1,0 +1,39 @@
+* {
+    font-family: helvetica;
+}
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+p {
+    text-align: center;
+    color: black;
+}
+#form-area {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    border-radius: 1%;
+}
+.submit {
+    text-align: center;
+}
+
+#name-label {
+    padding-top: 10px;
+}
+#number {
+    width: 35px;
+}
+
+#textarea{
+    height: 10%;
+    width: 20%
+}

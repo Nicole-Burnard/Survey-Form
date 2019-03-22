@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="survey-form.css">
+    <!--<script src="main.js"></script>-->
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="form-area">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <form id="survey-form">
+        <label id="name-label" class="">Name:<input id="name" type="text" placeholder="Enter your name"></label><br><br>
+        <label id="email-label" class="">Email:<input id="email" type="email" placeholder="Enter your email"></label><br><br>
+        <label id="number-label" class="">Age:<input id="number" type="number" placeholder="Age" max="99" min="18"></label><br><br>
+        <label id="dropdown-label" class="">Which option best describes your current role?
+          <select id="dropdown" class="">
+            <option value="">Select an option</option>
+            <option value="student">Student</option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <br><br>
+        <label id="buttons-label" class="">How likely is that you would recommend freeCodeCamp to a friend?<br><br>
+          <label for="definitely"><input id="definitely" class="" type="radio" name="possibilities">Definitely</label><br>
+          <label for="maybe"><input id="maybe" class="" type="radio" name="possibilities">Maybe</label><br>
+          <label for="not-sure"><input id="not-sure" class="" type="radio" name="possibilities">Not sure</label><br><br>
+        </label>
+        <label id="dropdown-2" class="">What do you like most in FCC:
+          <select class="">
+            <option value="">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="opensourse">Open Source</option>
+          </select><br><br>
+        </label>
+        <label id="checkbox-label" class="">Things that should be improved in the future (check all that apply):<br><br>
+          <label for="front"><input id="front" class="" type="checkbox" name="options">Front-end Projects</label><br>
+          <label for="back"><input id="back" class="" type="checkbox" name="options">Back-end Projects</label><br>
+          <label for="data"><input id="data" class="" type="checkbox" name="options">Data Visulization</label><br>
+          <label for="challenges"><input id="challenges" class="" type="checkbox" name="options">Challenges</label><br>
+          <label for="open"><input id="open" class="" type="checkbox" name="options">Open Source Community</label><br>
+          <label for="gitter"><input id="gitter" class="" type="checkbox" name="options">Gitter Help Rooms</label><br>
+          <label for="videos"><input id="videos" class="" type="checkbox" name="options">Videos</label><br>
+          <label for="city"><input id="city" class="" type="checkbox" name="options">City Meetups</label><br>
+          <label for="wiki"><input id="wiki" class="" type="checkbox" name="options">Wiki</label><br>
+          <label for="forum"><input id="forum" class="" type="checkbox" name="options">Forum</label><br>
+          <label for="additional"><input id="additional" class="" type="checkbox" name="options">Additional Courses</label>
+          </label>
+        <br><br>
+        <label for="textarea" class="">Any Comments or Suggestions?<br><br>
+          <textarea id="textarea" placeholder="Enter you comment here..."></textarea>
+        </label><br><br>
+        <input id="submit" type="submit"><br>
+      </form>
+    </div>
+  </body>
+</html>
