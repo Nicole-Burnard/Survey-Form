@@ -1,39 +1,79 @@
 * {
-    font-family: helvetica;
+  font-family: helvetica;
 }
 body {
-    background-color: black;
+  background-color: black;
 }
 h1 {
-    text-align: center;
-    color: whitesmoke;
+  text-align: center;
+  color: whitesmoke;
 }
 p {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 #form-area {
-    text-align: center;
-    background-color: whitesmoke;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    border-radius: 1%;
+  text-align: center;
+  background-color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  border-radius: 1%;
 }
-.submit {
-    text-align: center;
+.row {
+display: flex; 
 }
-
+.right-tab {
+display: inline-block;
+text-align: left;
+width: 30%;
+vertical-align: middle;
+}
+.input-field {
+height: 20px;
+width: 200px;
+padding: 5px;
+margin: 10px;
+border: 1px solid #c0c0c0;
+border-radius: 2px;
+}
+.labels {
+text-align: right;
+width: 40%;
+vertical-align: top;
+margin-top: 10px;
+}
+.option-1 {
+margin-right: 5%;
+}
+.option-2 {
+margin-left: 5%;
+}
+.boxes {
+vertical-align: top;
+}
+@media only screen and (max-width: 885px) {
+.boxes {
+  margin-bottom: 3%;
+  margin-left: 5%;
+  display: flex;
+ }
+}
+#submit {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+}
 #name-label {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 #number {
-    width: 35px;
+  width: 35px;
 }
-
-#textarea{
-    height: 10%;
-    width: 20%
+#textarea {
+  height: 10%;
+  width: 20%
 }
